@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/aft_black"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/aft_common_dimens_43dp"
+        android:layout_height="@dimen/aft_common_dimens_43dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/aft_landingpage_connect_network_bg" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.5"
+        android:textColor="@color/aft_white"
+        android:layout_marginTop="@dimen/aft_common_dimens_13dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_10dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_10dp"
+        android:textSize="@dimen/aft_common_text_size_14sp"
+        android:text="@string/aft_request_failed_network_msg" />
+
+    <TextView
+        android:id="@+id/tv_connect_network"
+        android:layout_width="@dimen/aft_common_dimens_190dp"
+        android:layout_height="@dimen/aft_common_dimens_36dp"
+        android:background="@drawable/aft_button_filled_blue"
+        android:text="@string/aft_no_net_guide_network_dialog_connect"
+        android:textColor="@color/aft_white"
+        android:textSize="@dimen/aft_common_text_size_14sp"
+        android:layout_marginTop="@dimen/aft_common_dimens_20dp"
+        android:gravity="center" />
+
+</LinearLayout>

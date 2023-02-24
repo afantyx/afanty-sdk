@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_app_info"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aft_common_dimens_80dp"
+        android:layout_margin="@dimen/aft_common_dimens_15dp">
+
+        <ImageView
+            android:id="@+id/iv_app_avatar"
+            android:layout_width="@dimen/aft_common_dimens_80dp"
+            android:layout_height="@dimen/aft_common_dimens_80dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@+id/ll_app_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="@dimen/aft_common_dimens_10dp"
+            android:layout_marginLeft="@dimen/aft_common_dimens_10dp"
+            android:layout_marginRight="@dimen/aft_common_dimens_10dp"
+            android:layout_marginStart="@dimen/aft_common_dimens_10dp"
+            android:layout_toEndOf="@id/iv_app_avatar"
+            android:layout_toLeftOf="@+id/ll_score"
+            android:layout_toRightOf="@id/iv_app_avatar"
+            android:layout_toStartOf="@+id/ll_score"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_app_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:gravity="start"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/aft_color_191919"
+                android:textSize="@dimen/aft_common_text_size_16sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_app_developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_app_group"
+            android:layout_marginEnd="@dimen/aft_common_dimens_10dp"
+            android:layout_marginLeft="@dimen/aft_common_dimens_10dp"
+            android:layout_marginRight="@dimen/aft_common_dimens_10dp"
+            android:layout_marginStart="@dimen/aft_common_dimens_10dp"
+            android:layout_marginTop="@dimen/aft_common_dimens_4dp"
+            android:layout_toEndOf="@id/iv_app_avatar"
+            android:layout_toLeftOf="@+id/ll_score"
+            android:layout_toRightOf="@id/iv_app_avatar"
+            android:layout_toStartOf="@+id/ll_score"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:textColor="@color/aft_color_999999"
+            android:textSize="@dimen/aft_common_text_size_13sp" />
+
+        <TextView
+            android:id="@+id/tv_app_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_app_avatar"
+            android:layout_toLeftOf="@+id/ll_score"
+            android:layout_toRightOf="@id/iv_app_avatar"
+            android:layout_toStartOf="@+id/ll_score"
+            android:layout_below="@id/tv_app_developer"
+            android:layout_alignBottom="@id/iv_app_avatar"
+            android:layout_marginEnd="@dimen/aft_common_dimens_10dp"
+            android:layout_marginLeft="@dimen/aft_common_dimens_10dp"
+            android:layout_marginRight="@dimen/aft_common_dimens_10dp"
+            android:layout_marginStart="@dimen/aft_common_dimens_10dp"
+            android:layout_marginTop="@dimen/aft_common_dimens_4dp"
+            android:textSize="@dimen/aft_common_dimens_13dp"
+            android:textColor="@color/aft_color_191919" />
+
+        <LinearLayout
+            android:id="@+id/ll_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="@dimen/aft_common_dimens_55dp"
+                android:layout_height="@dimen/aft_common_dimens_55dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/aft_common_dimens_4dp"
+                android:background="@drawable/aft_app_detail_score_bg"
+                android:gravity="center"
+                android:textColor="@color/aft_white"
+                android:textSize="@dimen/aft_common_text_size_20sp"
+                android:textStyle="bold" />
+
+            <com.afanty.land.widget.RatingBar
+                android:id="@+id/rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:maxScore="10"
+                app:starCount="5"
+                app:starDistance="@dimen/aft_common_dimens_1dp"
+                app:starEmpty="@drawable/aft_app_star_empty"
+                app:starFill="@drawable/aft_app_star_fill"
+                app:starSize="@dimen/aft_common_dimens_12dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ll_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/aft_common_dimens_15dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_15dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_15dp"
+        android:maxLines="1"
+        android:textColor="@color/aft_color_999999" />
+</LinearLayout>

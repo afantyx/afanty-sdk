@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aft_interstitial_bg">
+
+    <FrameLayout
+        android:id="@+id/fl_foreground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:id="@+id/top_margin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <include layout="@layout/aft_full_logo_and_sound" />
+
+    <include layout="@layout/aft_full_close_layout" />
+
+</RelativeLayout>

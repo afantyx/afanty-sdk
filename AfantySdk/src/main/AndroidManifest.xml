@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.afanty">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--  EX  -->
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+    </queries>
+
+    <application android:requestLegacyExternalStorage="true">
+
+        <activity
+            android:name=".common.offline.NetGuideActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AD.Popup" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.afanty.${SDK_NAME}.version"
+            android:value="[${SDK_VERSION_NAME}](${SDK_VERSION_CODE})"
+            tools:replace="android:value" />
+
+        <activity
+            android:name="com.afanty.internal.FullAdActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:theme="@style/Theme.Full" />
+
+        <activity
+            android:name=".internal.mraid.MRaidPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <activity
+            android:name=".core.ProtectActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/TranslucentStyle" />
+
+        <activity
+            android:name=".install.AppOperatorActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <activity
+            android:name=".promotion.install.InstallOperatorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".promotion.install.InstallImproveActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="behind"
+            android:taskAffinity=":.proInstallTask"
+            android:theme="@style/ProAzActivityDialogTheme" />
+
+        <receiver
+            android:name=".promotion.install.NotificationCleanReceiver"
+            android:exported="false" />
+
+        <activity
+            android:name=".promotion.active.ActiveOperatorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".promotion.active.ActiveImproveActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="behind"
+            android:taskAffinity=":.proInstallTask"
+            android:theme="@style/ProAzActivityDialogTheme" />
+
+        <activity
+            android:name=".starter.launch.WorkActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+    </application>
+</manifest>

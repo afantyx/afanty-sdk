@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/aft_common_content_view_disable_white_color" android:state_enabled="false" />
+    <item android:color="@color/aft_common_content_view_pressed_white_color" android:state_selected="true" />
+    <item android:color="@color/aft_common_content_view_pressed_white_color" android:state_focused="true" />
+    <item android:color="@color/aft_common_content_view_pressed_white_color" android:state_pressed="true" />
+    <item android:color="@color/aft_common_content_view_normal_white_color" />
+</selector>

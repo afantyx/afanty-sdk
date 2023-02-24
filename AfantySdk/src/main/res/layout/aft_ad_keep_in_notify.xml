@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alive_notify_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="ResourceName">
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:layout_width="@dimen/aft_common_dimens_40dp"
+        android:layout_height="@dimen/aft_common_dimens_40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/aft_common_dimens_12dp"
+        android:src="@drawable/aft_keep_in_notify_icon" />
+
+    <TextView
+        android:id="@+id/tv_open"
+        android:layout_width="@dimen/aft_common_dimens_60dp"
+        android:layout_height="@dimen/aft_common_dimens_24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/aft_common_dimens_12dp"
+        android:background="@drawable/aft_keep_in_notify_open_bg"
+        android:gravity="center"
+        android:text="@string/aft_ads_open"
+        android:textColor="@color/aft_white"
+        android:textSize="@dimen/aft_common_dimens_14dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/aft_common_dimens_12dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_12dp"
+        android:layout_toLeftOf="@id/tv_open"
+        android:layout_toRightOf="@id/image_icon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Find apps need to install"
+            android:textColor="@color/aft_color_191919"
+            android:textSize="@dimen/aft_common_dimens_15dp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/aft_common_dimens_2dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Install the experience now"
+            android:textColor="@color/aft_color_757575"
+            android:textSize="@dimen/aft_common_dimens_14dp" />
+    </LinearLayout>
+</RelativeLayout>

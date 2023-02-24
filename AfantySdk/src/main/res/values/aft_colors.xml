@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aft_transparent">#00000000</color>
+    <color name="aft_black">#ff000000</color>
+    <color name="aft_white">#ffffff</color>
+    <color name="aft_color_ea">#eaeaea</color>
+    <color name="aft_color_191919">#191919</color>
+    <color name="aft_color_333">#333333</color>
+    <color name="aft_color_666">#666666</color>
+
+    <color name="aft_interstitial_bg">#191919</color>
+    <color name="aft_black_transparent_10">#19000000</color>
+    <color name="aft_black_transparent_30">#4c000000</color>
+    <color name="aft_black_transparent_40">#66000000</color>
+    <color name="aft_black_transparent_50">#7f000000</color>
+    <color name="aft_black_transparent_70">#B3000000</color>
+    <color name="aft_white_transparent_30">#4dffffff</color>
+    <color name="aft_white_transparent_90">#E6ffffff</color>
+
+    <color name="aft_line_color_e8">#e8e8e8</color>
+    <color name="aft_text_color_66">#666666</color>
+    <color name="aft_text_color_75">#757575</color>
+    <color name="aft_text_color_33">#333333</color>
+    <color name="aft_text_color_333333_66">#66333333</color>
+
+    <color name="aft_common_content_view_disable_blue_color_50">#7FE9E9E9</color>
+    <color name="aft_text_progress_secondary_progress_bg">#FF0288F7</color>
+    <color name="aft_color_247fff">#247fff</color>
+
+    <color name="aft_color_247fff_80">#80247fff</color>
+    <color name="aft_color_e9e9e9">#ffE9E9E9</color>
+    <color name="aft_color_999999">#ff999999</color>
+    <color name="aft_color_00ca89">#ff00CA89</color>
+    <color name="aft_color_00ca89_90">#9000CA89</color>
+    <color name="aft_color_009868">#ff009868</color>
+
+    <color name="aft_common_content_view_normal_blue_color">#ff247fff</color>
+    <color name="aft_common_white_transparent_30">#4dffffff</color>
+    <color name="aft_primary_blue">#ff247fff</color>
+    <color name="aft_common_background_color">#ffF2F2F2</color>
+
+    <color name="aft_color_757575">#757575</color>
+    <color name="aft_common_black_transparent_30">#4c000000</color>
+    <color name="aft_common_content_view_disable_blue_color">#ffE9E9E9</color>
+
+    <color name="aft_common_content_view_disable_white_color">#ffE9E9E9</color>
+    <color name="aft_common_content_view_pressed_white_color">#33ffffff</color>
+    <color name="aft_common_content_view_normal_white_color">#ffffffff</color>
+</resources>

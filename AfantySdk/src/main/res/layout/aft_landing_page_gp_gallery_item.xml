@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/iv_gp_gallery_item"
+        android:layout_width="315dp"
+        android:layout_height="177dp" />
+
+    <com.afanty.land.widget.RoundCornerCoverView
+        android:visibility="visible"
+        android:layout_width="315dp"
+        android:layout_height="177dp"
+        app:cover_color="@android:color/white"
+        app:left_bottom_radius="10dp"
+        app:left_top_radius="10dp"
+        app:right_bottom_radius="10dp"
+        app:right_top_radius="10dp" />
+</RelativeLayout>

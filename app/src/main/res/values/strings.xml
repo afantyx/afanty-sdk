@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AfantyDemo</string>
+    <string name="title_adapter">Adapter</string>
+    <string name="title_native">Native Ad</string>
+    <string name="title_Banner">Banner Ad</string>
+    <string name="title_fullscreen">FullScreen Ad</string>
+    <string name="title_gdpr">Click to change status of GDPR, now its %s</string>
+
+    <string name="mopub_adapter_test">Mopub Adapter Test</string>
+    <string name="admob_adapter_test">Admob Adapter Test</string>
+    <string name="max_adapter_test">MAX Adapter Test</string>
+    <string name="request_ad_itl">Request Interstitial Ad</string>
+    <string name="request_ad_rwd">Request Rewarded Ad</string>
+    <string name="native_ad_request"><![CDATA[Request&Show RTBNative Ad]]></string>
+    <string name="native_list_test">Start new page for test native ad in list</string>
+    <string name="load_and_show_native">Load and show NativeAd</string>
+    <string name="native_ad_container">Native Ad Show Container</string>
+    <string name="request_ad_banner">Request  RTBBanner Ad(320*50)</string>
+    <string name="request_ad_banner250">Request RTBBanner Ad(300*250)</string>
+    <string name="show_ad">Show Ad</string>
+    <string name="edit_hint">Enter the configuration and click the button Set</string>
+
+</resources>

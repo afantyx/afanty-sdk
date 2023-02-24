@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="aft_timer_later_minutes">minutes later</string>
+    <string name="aft_timer_later_hours">hours later</string>
+    <string name="aft_timer_later_days">days later</string>
+    <string name="aft_timer_later_months">months later</string>
+    <string name="aft_ad_no_net_guide_title">Oops！There was a network error. Please check your internet connection.</string>
+    <string name="aft_ad_no_net_guide_connect">CONNECT NETWORK</string>
+    <string name="aft_no_net_guide_network_dialog_connect">SET INTERNET</string>
+    <string name="aft_no_net_guide_network_dialog_headline">Oops! No Internet connection</string>
+    <string name="aft_no_net_guide_network_dialog_refresh">NO,THANKS</string>
+    <string name="aft_request_failed_network_msg" translatable="false">Oops! Network Error. \nFailed to load</string>
+    <string name="aft_common_tip_loading">Loading&#8230;</string>
+    <string name="aft_common_loading">Loading</string>
+    <string name="aft_ads_open">OPEN</string>
+    <string name="aft_common_load_error_set_network">CONNECT NETWORK</string>
+    <string name="aft_common_hybrid_web_timeout">Poor network or wrong address.\nPlease try again.</string>
+    <string name="aft_common_operate_retry">Retry</string>
+    <string name="aft_common_operate_downloading">Downloading</string>
+    <string name="aft_content_file_open_not_support" translatable="false">This file type is not supported</string>
+
+    <string name="aft_media_player_network_err_msg">Please check the network</string>
+    <string name="aft_media_player_error_wrong">Something goes wrong&#8230;</string>
+    <string name="aft_columbus_player_close_title">Close Ad ?</string>
+    <string name="aft_columbus_player_close_desc">You will lose your reward. \nAre you sure you want to close the ad now ?</string>
+    <string name="aft_columbus_player_close_video">CLOSE</string>
+    <string name="aft_columbus_player_close_resume">RESUME</string>
+    <string name="aft_common_cta_desc">GO</string>
+    <string name="aft_countdown_skip">Skippable in %s s</string>
+    <string name="aft_countdown_rewarded">Reward in %s s</string>
+    <string name="aft_countdown_got_reward">Got Reward</string>
+
+
+    <string name="app_name">AftSdk</string>
+    <string name="aft_common_content_apps">Apps</string>
+    <string name="aft_common_content_zips">Zip</string>
+    <string name="aft_common_content_files">Files</string>
+    <string name="aft_common_tip_waiting">Waiting</string>
+    <string name="aft_common_close_caps">CLOSE</string>
+    <string name="aft_common_more">MORE</string>
+    <string name="aft_share_content_photo_date_formate_no_years">MMM dd</string>
+    <string name="aft_auto_reserve_title">The app will be booked automatically in %d seconds. Do you want to cancel it?</string>
+    <string name="aft_common_desc_no">NO</string>
+    <string name="aft_common_desc_yes">YES</string>
+    <string name="aft_common_app_run_failed" translatable="false">Unable to run the application</string>
+    <string name="aft_content_file_not_exist">File does not exist</string>
+</resources>

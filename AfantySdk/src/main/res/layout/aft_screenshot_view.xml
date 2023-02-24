@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rv_screen_scrop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/aft_common_dimens_15dp"
+    android:clipToPadding="false"
+    android:paddingEnd="@dimen/aft_common_dimens_12dp"
+    android:paddingLeft="@dimen/aft_common_dimens_16dp"
+    android:paddingRight="@dimen/aft_common_dimens_12dp"
+    android:paddingStart="@dimen/aft_common_dimens_16dp" />

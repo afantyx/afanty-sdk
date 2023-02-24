@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="aft_TextProgress">
+        <attr name="showProTx" format="boolean"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="text_margin_left" format="dimension"></attr>
+        <attr name="text_margin_right" format="dimension"></attr>
+        <attr name="text_margin_top" format="dimension"></attr>
+        <attr name="text_margin_bottom" format="dimension"></attr>
+        <attr name="text_bold" format="boolean"></attr>
+        <attr name="text" format="string"></attr>
+        <attr name="text_max_length" format="dimension"></attr>
+        <attr name="text_default_color" format="color"></attr>
+        <attr name="button_default_color" format="color"></attr>
+        <attr name="xfermode_default_color" format="color"></attr>
+        <attr name="normal_progress" format="integer"></attr>
+        <attr name="normal_finish_progress" format="integer"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="aft_ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandIndicator" format="reference" />
+        <attr name="collapseIndicator" format="reference" />
+        <attr name="expandToggleTypeValue" format="enum">
+            <enum name="ImageButton" value="0" />
+            <enum name="TextView" value="1" />
+        </attr>
+        <attr name="expandableTextId" format="reference" />
+        <attr name="expandCollapseToggleId" format="reference" />
+        <attr name="expandToggleOnTextClick" format="boolean" />
+        <attr name="canCollapse" format="boolean" />
+    </declare-styleable>
+</resources>

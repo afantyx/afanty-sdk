@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="aft_common_dimens_align_parent_left">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="aft_common_dimens_align_parent_right">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start1">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_1dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_1dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start2">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_2dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_2dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start3">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_3dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_3dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start4">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_4dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start5">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_5dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_5dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start6">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_6dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_6dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start7">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_7dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_7dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start8">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_8dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_8dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start9">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_9dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_9dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start10">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_10dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_10dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start11">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_11dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_11dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start12">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_12dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_12dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start13">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_13dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_13dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start14">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_14dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start15">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_15dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_15dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start16">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_16dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start17">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_17dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_17dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start18">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_18dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_18dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start19">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_19dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_19dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start20">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_20dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_20dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start21">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_21dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_21dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start22">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_22dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_22dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start23">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_23dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_23dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start24">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_24dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_24dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start25">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_25dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_25dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start26">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_26dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_26dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start27">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_27dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_27dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start28">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_28dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_28dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start29">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_29dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_29dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start30">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_30dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_30dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start31">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_31dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_31dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start32">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_32dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_32dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start33">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_33dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_33dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start34">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_34dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_34dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start35">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_35dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_35dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start36">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_36dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_36dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start37">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_37dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_37dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start42">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_42dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_42dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start48">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_48dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_48dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start50">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_50dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_50dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start55">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_55dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_55dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start66">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_66dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_66dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start72">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_72dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_72dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start73">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_73dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_73dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start76">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_76dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_76dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_start77">
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_77dp</item>
+        <item name="android:layout_marginStart">@dimen/aft_common_dimens_77dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end1">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_1dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_1dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end2">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_2dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_2dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end3">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_3dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_3dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end4">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_4dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end5">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_5dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_5dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end6">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_6dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_6dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end7">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_7dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_7dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end8">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_8dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_8dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end9">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_9dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_9dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end10">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_10dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_10dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end11">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_11dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_11dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end12">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_12dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_12dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end13">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_13dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_13dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end14">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_14dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end15">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_15dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_15dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end16">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_16dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end17">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_17dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_17dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end18">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_18dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_18dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end19">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_19dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_19dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end20">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_20dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_20dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end21">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_21dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_21dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end22">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_22dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_22dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end23">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_23dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_23dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end24">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_24dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_24dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end25">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_25dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_25dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end26">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_26dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_26dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end27">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_27dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_27dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end28">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_28dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_28dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end29">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_29dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_29dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end30">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_30dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_30dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end31">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_31dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_31dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end32">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_32dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_32dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end33">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_33dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_33dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end34">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_34dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_34dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end35">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_35dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_35dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end36">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_36dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_36dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end37">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_37dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_37dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end40">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_40dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_40dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end48">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_48dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_48dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end50">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_50dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_50dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end54">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_54dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_54dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end55">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_55dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_55dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end68">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_68dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_68dp</item>
+    </style>
+
+    <style name="aft_common_dimens_margin_end88">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_88dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_88dp</item>
+    </style>
+
+
+    <style name="aft_common_dimens_padding_start1">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_1dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_1dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start2">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_2dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_2dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start3">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_3dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_3dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start4">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_4dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start5">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_5dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_5dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start6">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_6dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_6dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start7">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_7dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_7dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start8">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_8dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_8dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start9">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_9dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_9dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start10">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_10dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_10dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start11">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_11dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_11dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start12">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_12dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_12dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start13">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_13dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_13dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start14">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_14dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start15">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_15dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_15dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start16">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_16dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start17">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_17dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_17dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start18">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_18dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_18dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start19">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_19dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_19dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start20">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_20dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_20dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start21">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_22dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_22dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start22">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_22dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_22dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start23">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_23dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_23dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start24">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_24dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_24dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start25">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_25dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_25dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start26">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_26dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_26dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start27">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_27dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_27dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start28">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_28dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_28dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start29">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_29dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_29dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start30">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_30dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_30dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start31">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_31dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_31dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start32">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_32dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_32dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start33">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_33dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_33dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start34">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_34dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_34dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start35">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_35dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_35dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start36">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_36dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_36dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_start37">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_37dp</item>
+        <item name="android:paddingStart">@dimen/aft_common_dimens_37dp</item>
+    </style>
+
+
+    <style name="aft_common_dimens_padding_end1">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_1dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_1dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end2">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_2dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_2dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end3">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_3dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_3dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end4">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_4dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end5">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_5dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_5dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end6">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_6dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_6dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end7">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_7dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_7dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end8">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_8dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_8dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end9">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_9dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_9dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end10">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_10dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_10dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end11">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_11dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_11dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end12">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_12dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_12dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end13">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_13dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_13dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end14">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_14dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end15">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_15dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_15dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end16">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_16dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end17">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_17dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_17dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end18">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_18dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_18dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end19">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_19dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_19dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end20">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_20dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_20dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end21">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_22dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_22dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end22">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_22dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_22dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end23">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_23dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_23dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end24">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_24dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_24dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end25">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_25dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_25dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end26">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_26dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_26dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end27">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_27dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_27dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end28">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_28dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_28dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end29">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_29dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_29dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end30">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_30dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_30dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end31">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_31dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_31dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end32">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_32dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_32dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end33">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_33dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_33dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end34">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_34dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_34dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end35">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_35dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_35dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end36">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_36dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_36dp</item>
+    </style>
+
+    <style name="aft_common_dimens_padding_end37">
+        <item name="android:paddingRight">@dimen/aft_common_dimens_37dp</item>
+        <item name="android:paddingEnd">@dimen/aft_common_dimens_37dp</item>
+    </style>
+
+    <style name="aft_common_horizontal_scroll_vh_padding">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_13.5dp</item>
+        <item name="android:paddingRight">@dimen/aft_common_dimens_13.5dp</item>
+    </style>
+
+    <style name="aft_common_horizontal_scroll_item_padding">
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_2.5dp</item>
+        <item name="android:paddingRight">@dimen/aft_common_dimens_2.5dp</item>
+    </style>
+
+    <style name="aft_common_horizontal_scroll_card_margin">
+        <item name="android:layout_marginBottom">@dimen/aft_common_dimens_13dp</item>
+    </style>
+
+    <style name="aft_pay_tag_style">
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:layout_marginTop">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:layout_marginEnd">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:paddingLeft">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:paddingRight">@dimen/aft_common_dimens_4dp</item>
+        <item name="android:paddingTop">@dimen/aft_common_dimens_2dp</item>
+        <item name="android:paddingBottom">@dimen/aft_common_dimens_2dp</item>
+        <item name="android:textSize">@dimen/aft_common_text_size_9sp</item>
+    </style>
+
+    <style name="aft_common_feed_card_margin">
+        <item name="android:layout_marginBottom">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_16dp</item>
+    </style>
+
+    <style name="aft_common_feed_title_card_margin">
+        <item name="android:layout_marginBottom">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_16dp</item>
+        <item name="android:layout_marginTop">@dimen/aft_common_dimens_10dp</item>
+    </style>
+
+    <style name="aft_common_feed_card_bottom_margin">
+        <item name="android:layout_marginBottom">@dimen/aft_common_dimens_10dp</item>
+    </style>
+
+    <style name="aft_common_feed_card_bottom_padding">
+        <item name="android:paddingBottom">@dimen/aft_common_dimens_9dp</item>
+    </style>
+
+    <style name="aft_common_video_poster_card_margin">
+        <item name="android:layout_marginBottom">@dimen/aft_common_dimens_10dp</item>
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_14dp</item>
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_14dp</item>
+    </style>
+
+</resources>

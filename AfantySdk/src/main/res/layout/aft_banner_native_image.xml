@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/aft_common_dimens_320dp"
+    android:layout_height="@dimen/aft_common_dimens_50dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/aft_banner_bg">
+
+    <FrameLayout
+        android:id="@+id/icon_layout"
+        android:layout_width="@dimen/aft_common_dimens_36dp"
+        android:layout_height="@dimen/aft_common_dimens_36dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/aft_common_dimens_12dp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ad_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/fl_stereo"
+        android:layout_toLeftOf="@+id/fl_stereo"
+        android:layout_toEndOf="@+id/icon_layout"
+        android:layout_toRightOf="@+id/icon_layout"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/aft_common_dimens_10dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_10dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aft_common_dimens_16dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:textColor="@color/aft_color_333"
+            android:textSize="@dimen/aft_common_text_size_13sp" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aft_common_dimens_14dp"
+            android:layout_marginTop="@dimen/aft_common_dimens_4.5dp"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:textColor="@color/aft_color_666"
+            android:textSize="@dimen/aft_common_text_size_11sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/choice"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end" />
+
+    <FrameLayout
+        android:id="@+id/fl_stereo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="@dimen/aft_common_dimens_12dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_12dp"
+        android:layout_centerVertical="true">
+
+        <com.afanty.internal.view.CustomProgressBar
+            android:id="@+id/btn_stereo_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/aft_common_dimens_22dp"
+            app:text_margin_left="@dimen/aft_common_dimens_8dp"
+            app:text_margin_right="@dimen/aft_common_dimens_8dp"
+            app:textSize="@dimen/aft_common_text_size_12sp"
+            app:text_max_length="@dimen/aft_common_dimens_60dp"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/aft_progress_bar_bg"
+            android:gravity="center"
+            style="?android:attr/progressBarStyleHorizontal"
+            app:text="@string/aft_common_cta_desc" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_ad_icon"
+        android:layout_width="@dimen/aft_common_dimens_18dp"
+        android:layout_height="@dimen/aft_common_dimens_17dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/aft_ad_banner_logo"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

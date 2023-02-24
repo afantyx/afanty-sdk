@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/aft_common_dimens_25dp"
+    android:layout_below="@id/top_margin"
+    android:layout_marginStart="@dimen/aft_common_dimens_12dp"
+    android:layout_marginLeft="@dimen/aft_common_dimens_12dp"
+    android:layout_marginTop="@dimen/aft_common_dimens_20dp"
+    android:background="@drawable/aft_vast_player_reward_time_bg"
+    android:minWidth="@dimen/aft_common_dimens_30dp"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/aft_common_dimens_5dp"
+    android:paddingRight="@dimen/aft_common_dimens_5dp">
+
+    <TextView
+        android:layout_width="@dimen/aft_common_dimens_25dp"
+        android:layout_height="@dimen/aft_common_dimens_25dp"
+        android:gravity="center"
+        android:text="AD"
+        android:textColor="@color/aft_white_transparent_30"
+        android:textSize="@dimen/aft_common_text_size_12sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="@dimen/aft_common_dimens_1dp"
+        android:layout_height="@dimen/aft_common_dimens_13dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/aft_common_dimens_5dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_5dp"
+        android:background="@color/aft_white_transparent_30"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_volume"
+        android:layout_width="@dimen/aft_common_dimens_25dp"
+        android:layout_height="@dimen/aft_common_dimens_25dp"
+        android:padding="@dimen/aft_common_dimens_2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/aft_vast_player_sound_selector"
+        android:visibility="gone" />
+
+</LinearLayout>

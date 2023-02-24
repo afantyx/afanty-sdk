@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afanty.land.widget.AnimatedDoorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_door_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <FrameLayout
+        android:id="@+id/root_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/root_view_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:alpha="0" />
+
+        <com.afanty.land.widget.ObservableScrollView
+            android:id="@+id/sv_observable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:background="@android:color/transparent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+        </com.afanty.land.widget.ObservableScrollView>
+
+        <LinearLayout
+            android:id="@+id/gp_video_container"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <include
+            android:id="@+id/layout_connect_network"
+            layout="@layout/aft_landing_page_connect_network_layout"
+            android:visibility="gone" />
+
+        <include layout="@layout/aft_view_title_bar" />
+    </FrameLayout>
+
+</com.afanty.land.widget.AnimatedDoorLayout>

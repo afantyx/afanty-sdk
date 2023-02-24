@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="common_button_height">@dimen/aft_common_dimens_36dp</dimen>
+
+    <style name="ButtonStyle">
+        <item name="android:textSize">@dimen/aft_common_text_size_14sp</item>
+        <item name="android:layout_height">@dimen/common_button_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="SingleMediumButtonStyle" parent="ButtonStyle">
+        <item name="android:minWidth">@dimen/aft_common_dimens_190dp</item>
+        <item name="android:textColor">@color/aft_common_text_color_white</item>
+        <item name="android:background">@drawable/aft_capsule_button_filled_orange</item>
+        <item name="android:layout_marginLeft">@dimen/aft_common_dimens_50dp</item>
+        <item name="android:layout_marginRight">@dimen/aft_common_dimens_50dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>

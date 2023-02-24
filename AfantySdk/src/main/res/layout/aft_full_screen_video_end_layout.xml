@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/aft_transparent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_end_icon"
+        android:layout_width="@dimen/aft_common_dimens_48dp"
+        android:layout_height="@dimen/aft_common_dimens_48dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/aft_reward_end_icon_bg" />
+
+    <TextView
+        android:id="@+id/tv_end_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aft_common_text_size_14sp"
+        android:textColor="@color/aft_white"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/aft_common_dimens_8dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_78dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_78dp"
+        android:layout_marginBottom="@dimen/aft_common_dimens_8dp" />
+
+    <TextView
+        android:id="@+id/tv_end_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/aft_common_text_size_12sp"
+        android:textColor="@color/aft_white"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginLeft="@dimen/aft_common_dimens_78dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_78dp" />
+
+    <com.afanty.internal.view.CustomProgressBar
+        android:id="@+id/tp_end_btn"
+        android:layout_width="@dimen/aft_common_dimens_140dp"
+        android:layout_height="@dimen/aft_common_dimens_28dp"
+        android:layout_margin="@dimen/aft_common_dimens_12dp"
+        app:text_margin_left="@dimen/aft_common_dimens_8dp"
+        app:text_margin_right="@dimen/aft_common_dimens_8dp"
+        app:text_max_length="@dimen/aft_common_dimens_123dp"
+        android:gravity="center"
+        android:textColor="@color/aft_white"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/aft_progress_bar_bg"
+        style="?android:attr/progressBarStyleHorizontal"
+        app:text="@string/aft_common_cta_desc" />
+
+</LinearLayout>

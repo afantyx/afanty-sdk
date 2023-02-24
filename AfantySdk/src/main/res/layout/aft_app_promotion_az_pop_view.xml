@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/aft_popup_app_commercial_bg"
+    android:orientation="horizontal"
+    android:paddingVertical="@dimen/aft_common_dimens_22dp">
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="@dimen/aft_common_dimens_48dp"
+        android:layout_height="@dimen/aft_common_dimens_48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/aft_common_dimens_16dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_16dp" />
+
+    <TextView
+        android:id="@+id/app_desc_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/aft_common_dimens_12dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_12dp"
+        android:layout_weight="1.0"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:textStyle="bold"
+        android:textColor="@color/aft_color_191919"
+        android:textSize="@dimen/aft_common_text_size_12sp" />
+
+    <TextView
+        android:id="@+id/install_text"
+        android:layout_width="@dimen/aft_common_dimens_72dp"
+        android:layout_height="@dimen/aft_common_dimens_26dp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginStart="@dimen/aft_common_dimens_10dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_10dp"
+        android:layout_marginEnd="@dimen/aft_common_dimens_5dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_5dp"
+        android:background="@drawable/aft_proaz_btn"
+        android:gravity="center"
+        android:text="INSTALL"
+        android:textColor="@color/aft_white"
+        android:textSize="@dimen/aft_common_text_size_12sp" />
+
+    <ImageView
+        android:id="@+id/install_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/aft_common_dimens_4dp"
+        android:src="@drawable/aft_popup_app_commercial_close" />
+</LinearLayout>

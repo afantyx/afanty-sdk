@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_total"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:gravity="center_vertical|right">
+
+    <LinearLayout
+        android:id="@+id/ll_see_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/aft_see_more_bg"
+        android:gravity="center_vertical|right"
+        android:paddingRight="@dimen/aft_common_dimens_12dp"
+        android:paddingLeft="@dimen/aft_common_dimens_12dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_70dp">
+
+        <TextView
+            android:id="@+id/tv_see_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/aft_white"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/aft_common_dimens_14dp" />
+
+        <ImageView
+            android:id="@+id/iv_right_btn"
+            android:layout_width="@dimen/aft_common_dimens_12dp"
+            android:layout_height="@dimen/aft_common_dimens_12dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/aft_landingpage_seemore_right_button"
+            android:layout_marginLeft="@dimen/aft_common_dimens_5dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_sound"
+        android:layout_width="@dimen/aft_common_dimens_28dp"
+        android:layout_height="@dimen/aft_common_dimens_28dp"
+        android:layout_marginLeft="@dimen/aft_common_dimens_10dp"
+        android:src="@drawable/aft_see_more_sound_selector"
+        android:scaleType="fitXY" />
+
+</LinearLayout>

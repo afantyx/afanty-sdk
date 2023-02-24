@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/common_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/aft_common_title_height"
+    android:background="@color/aft_primary_blue">
+
+    <Button
+        android:id="@+id/return_view"
+        style="@style/aft_common_dimens_margin_start8"
+        android:layout_width="@dimen/aft_common_media_title_return_width"
+        android:layout_height="@dimen/aft_common_media_title_return_height"
+        android:layout_gravity="start|center_vertical"
+        android:background="@drawable/aft_titlebar_return_bg" />
+
+    <ViewStub
+        android:id="@+id/close_view_stub"
+        style="@style/aft_common_dimens_margin_start37"
+        android:layout_width="@dimen/aft_common_media_title_return_width"
+        android:layout_height="@dimen/aft_common_media_title_return_height"
+        android:layout_gravity="start|center_vertical"
+        android:layout="@layout/aft_basic_title_bar_close_view" />
+
+    <TextView
+        android:id="@+id/title_text"
+        style="@style/common_titlebar_title_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/aft_common_titlebar_title_textSize"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/right_button"
+        style="@style/aft_common_dimens_margin_end8"
+        android:layout_width="@dimen/aft_common_media_title_right_width"
+        android:layout_height="@dimen/aft_common_media_title_right_height"
+        android:layout_gravity="end|center_vertical"
+        android:background="@color/aft_transparent"
+        android:gravity="center"
+        android:textColor="@color/aft_common_titlebar_button_text_color"
+        android:textSize="@dimen/aft_common_titlebar_right_button_textSize"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@+id/right_container"
+        style="@style/aft_common_dimens_margin_end8"
+        android:layout_width="@dimen/aft_common_media_title_right_width"
+        android:layout_height="@dimen/aft_common_media_title_right_width"
+        android:layout_gravity="end|center_vertical"
+        android:layout="@layout/aft_basic_title_bar_right_container" />
+</FrameLayout>

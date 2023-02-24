@@ -1,0 +1,80 @@
+plugins {
+    id 'com.android.library'
+}
+
+ext {
+    SDK_VERSION_NAME = AFANTY_SDK_VERSION_NAME
+    SDK_VERSION_CODE = AFANTY_SDK_VERSION_CODE
+}
+
+def releaseTime() {
+    new Date().format("yyyyMMddHHmm",TimeZone.getTimeZone("GMT+08:00"))
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 31
+
+        archivesBaseName = ARTIFACT_ID + "-" + SDK_VERSION_NAME + releaseTime()
+
+        consumerProguardFiles 'consumer-rules.pro'
+
+        buildConfigField("String", "SDK_VERSION_NAME", "\"$SDK_VERSION_NAME\"")
+        buildConfigField("int", "SDK_VERSION_CODE", "$SDK_VERSION_CODE")
+
+        manifestPlaceholders = [SDK_NAME        : "${ARTIFACT_ID}",
+                                SDK_VERSION_NAME: "${SDK_VERSION_NAME}",
+                                SDK_VERSION_CODE: "${SDK_VERSION_CODE}"]
+    }
+
+    buildTypes {
+        release {
+            zipAlignEnabled true  // Zipalign优化
+            minifyEnabled true
+            proguardFiles 'proguard-default-rules.pro', 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'src/main/AndroidManifest.xml'
+            java.srcDirs = resources.srcDirs = ['src/main/java', 'src/main/aidl']
+            aidl.srcDirs = ['src/main/aidl', 'src/action/aidl', 'src/basic/aidl', 'src/ex/aidl']
+            res.srcDirs = ['src/main/res', 'src/action/res', 'src/basic/res','src/ex/res']
+            assets.srcDirs = ['src/main/assets', 'src/action/assets', 'src/basic/assets', 'src/ex/assets']
+            jniLibs.srcDirs = ['libs']
+        }
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    api 'com.google.android.exoplayer:exoplayer-core:2.16.0'
+    implementation 'androidx.work:work-runtime:2.7.1'
+
+    api 'androidx.appcompat:appcompat:1.4.2'
+    api 'com.google.android.material:material:1.3.0'
+    api "com.squareup.okhttp3:okhttp:3.14.9"
+    api "com.squareup.okhttp3:okhttp-urlconnection:3.11.0"
+    api "com.github.bumptech.glide:glide:4.10.0"
+    api "com.github.zjupure:webpdecoder:2.0.4.10.0"
+
+}

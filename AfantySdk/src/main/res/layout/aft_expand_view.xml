@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.afanty.land.widget.ExpandableTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expand_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/aft_common_dimens_15dp"
+    android:layout_marginRight="@dimen/aft_common_dimens_15dp"
+    app:animDuration="200"
+    app:canCollapse="true"
+    app:expandToggleOnTextClick="false"
+    app:expandToggleTypeValue="TextView"
+    app:maxCollapsedLines="5">
+
+    <TextView
+        android:id="@id/aft_expandable_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:textSize="@dimen/aft_common_text_size_16sp" />
+
+    <TextView
+        android:id="@id/aft_expand_collapse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:background="@android:color/transparent"
+        android:textColor="#247fff" />
+</com.afanty.land.widget.ExpandableTextView>

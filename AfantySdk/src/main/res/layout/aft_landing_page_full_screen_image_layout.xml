@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_total"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/aft_common_dimens_16dp"
+        android:textColor="@color/aft_white"
+        android:textSize="@dimen/aft_common_text_size_14sp"
+        android:text="@string/aft_common_loading" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="@style/SIProgressBarStyle"
+        android:layout_width="@dimen/aft_common_dimens_25dp"
+        android:layout_height="@dimen/aft_common_dimens_25dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/tv_loading" />
+
+    <ImageView
+        android:id="@+id/iv_refresh"
+        android:layout_width="@dimen/aft_common_dimens_44dp"
+        android:layout_height="@dimen/aft_common_dimens_44dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/tv_loading"
+        android:src="@drawable/aft_landingpage_refresh_bg"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</RelativeLayout>

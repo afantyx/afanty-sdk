@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enhance_notification_layout"
+    android:layout_width="match_parent"
+    android:layout_height="240dp">
+
+    <ImageView
+        android:id="@+id/enhance_notification_cover"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:id="@+id/enhance_notification_content"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/enhance_notification_icon"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/enhance_notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_alignTop="@+id/enhance_notification_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/enhance_notification_icon"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="App Title"
+            android:textColor="#191919"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enhance_notification_description"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_alignBottom="@+id/enhance_notification_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/enhance_notification_icon"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="App Description"
+            android:textColor="#757575"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/enhance_notification_up"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="center"
+            android:src="@drawable/starter_icon_up" />
+
+        <TextView
+            android:id="@+id/enhance_notification_index"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/enhance_notification_up"
+            android:text="633463"
+            android:textColor="#FF2D47"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/enhance_notification_button"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/enhance_notification_up"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shape_notification_starter_button"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="Go"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</RelativeLayout>

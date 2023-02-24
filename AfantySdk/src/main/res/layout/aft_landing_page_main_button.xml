@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/btn_layout"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:background="@color/aft_white"
+    android:layout_height="@dimen/aft_common_dimens_56dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/aft_common_dimens_1dp"
+        android:background="#eaeaea" />
+
+    <com.afanty.internal.view.CustomProgressButton
+        android:id="@+id/btn_download"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/aft_common_dimens_20dp"
+        android:layout_marginTop="@dimen/aft_common_dimens_10dp"
+        android:layout_marginRight="@dimen/aft_common_dimens_20dp"
+        android:layout_marginBottom="@dimen/aft_common_dimens_10dp"
+        app:textSize="@dimen/aft_common_text_size_14sp"
+        app:text_margin_left="@dimen/aft_common_dimens_8dp"
+        app:text_margin_right="@dimen/aft_common_dimens_8dp"
+        android:textColor="@color/aft_white"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/aft_progress_bar_bg"
+        app:text="@string/aft_common_cta_desc" />
+</RelativeLayout>

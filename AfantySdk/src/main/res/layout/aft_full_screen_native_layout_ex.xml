@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aft_white"
+    android:id="@+id/ll_bg">
+
+    <RelativeLayout
+        android:id="@+id/rl_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/iv_middle_ground"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/aft_white_transparent_30" />
+
+        <FrameLayout
+            android:id="@+id/fl_foreground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <View
+            android:id="@+id/top_margin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <include layout="@layout/aft_full_close_layout" />
+
+        <include layout="@layout/aft_full_logo_and_sound" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aft_common_dimens_0.5dp"
+            android:background="@color/aft_black_transparent_10"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/aft_common_dimens__33dp">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="@dimen/aft_common_dimens_66dp"
+            android:layout_height="@dimen/aft_common_dimens_66dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/aft_icon_bg" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/aft_common_dimens_63dp"
+            android:layout_marginRight="@dimen/aft_common_dimens_63dp"
+            android:textSize="@dimen/aft_common_text_size_16sp"
+            android:textColor="@color/aft_text_color_33"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/aft_common_dimens_12dp" />
+
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/aft_common_dimens_63dp"
+            android:layout_marginRight="@dimen/aft_common_dimens_63dp"
+            android:textSize="@dimen/aft_common_text_size_13sp"
+            android:textColor="@color/aft_text_color_66"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/aft_common_dimens_8dp" />
+
+        <com.afanty.internal.view.CustomProgressButton
+            android:id="@+id/tp_button"
+            android:layout_width="189dp"
+            android:layout_height="@dimen/aft_common_dimens_36dp"
+            android:layout_marginTop="@dimen/aft_common_dimens_28dp"
+            android:textColor="@color/aft_white"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            app:textSize="@dimen/aft_common_text_size_15sp"
+            app:text_margin_left="@dimen/aft_common_dimens_8dp"
+            app:text_margin_right="@dimen/aft_common_dimens_8dp"
+            app:text_bold="true"
+            app:text_max_length="@dimen/aft_common_dimens_173dp"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/aft_progress_bar_bg"
+            style="?android:attr/progressBarStyleHorizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>
